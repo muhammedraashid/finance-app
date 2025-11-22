@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.env
+*.db
+*.sqlite3
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+
+# --- Environment files ---
+.env
+backend/.env
+frontend/.env
+**/.env
+
+# --- Docker ---
+*.pid
+*.seed
+docker-data/
+postgres_data/
+redis_data/
+
+# --- Node (React / Vite) ---
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Editor / OS files ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Alembic ---
+alembic.ini
+alembic/versions/*.pyc
+backend/finance-env/
